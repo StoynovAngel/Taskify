@@ -5,7 +5,6 @@ import axios from "axios";
 
 const Home = () => {
   const [users, setUsers] = useState([]);
-
   useEffect(() => {
     const fetchUsers = async () => {
       axios

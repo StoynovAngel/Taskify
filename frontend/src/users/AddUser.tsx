@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import InputForm from "../reusable/InputForm";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 type User = {
   name: string;
